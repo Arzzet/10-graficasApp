@@ -10,7 +10,7 @@ import { BarrasDoblesComponent } from './pages/barras-dobles/barras-dobles.compo
 import { DonaComponent } from './pages/dona/dona.component';
 import { DonaHttpComponent } from './pages/dona-http/dona-http.component';
 import { GraficaBarraComponent } from './components/grafica-barra/grafica-barra.component';
-import { GraficasComponent } from './services/graficas/graficas.component';
+
 
 
 @NgModule({
@@ -20,7 +20,6 @@ import { GraficasComponent } from './services/graficas/graficas.component';
     DonaComponent,
     DonaHttpComponent,
     GraficaBarraComponent,
-    GraficasComponent
   ],
   imports: [
     CommonModule,
